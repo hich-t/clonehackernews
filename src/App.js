@@ -17,7 +17,7 @@ const App = () => {
     
 const fetchData = async () => {
     try {
-        const callData = await axios.get('http://hn.algolia.com/api/v1/search?tags=front_page');
+        const callData = await axios.get('https://hn.algolia.com/api/v1/search?tags=front_page');
         setResults(callData.data.hits);
         setLoading(true)
     }
@@ -27,7 +27,7 @@ const fetchData = async () => {
 
 const fetchData2 = async () => {
   try {
-      const callData = await axios.get(`http://hn.algolia.com/api/v1/${search}?query=${query}&hitsPerPage=${hitsPerPage}&page=${page}${filter}`);
+      const callData = await axios.get(`https://hn.algolia.com/api/v1/${search}?query=${query}&hitsPerPage=${hitsPerPage}&page=${page}${filter}`);
       setResults(callData.data.hits)
       setLoading(true) 
   }

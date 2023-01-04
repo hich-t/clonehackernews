@@ -33,7 +33,7 @@ const CardsComment = (props) => {
 
 const fetchData = async () => {
         try {
-            const callData =  await axios.get(`http://hn.algolia.com/api/v1/items/${parseInt(props.id)}`)
+            const callData =  await axios.get(`https://hn.algolia.com/api/v1/items/${parseInt(props.id)}`)
             setComment(callData.data.children); 
             setloading(true)
         }
