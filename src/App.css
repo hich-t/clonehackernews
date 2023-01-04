@@ -1,0 +1,226 @@
+.App {
+
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  align-content: center !important;
+  background-image: linear-gradient(to left, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.logo{
+  
+  width: 250px;
+  pointer-events: none !important;
+}
+
+.logo2{
+
+  width: 75px;
+  pointer-events: none !important;
+
+}
+
+
+.pageBtn{
+
+
+  text-transform: uppercase;
+  font-size: 11px;
+  background-color: #fafafa;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-weight: bold;
+  border-color: none;
+  padding: 12px 40px;
+  border-width: 0cm;
+  box-shadow: 1px 2px 8px #1476ffee !important;
+  margin: 20px 25px;
+
+}
+
+
+.appbar{
+
+  display: flex !important;
+  justify-content: space-around !important;
+  flex-wrap: wrap !important;
+  flex-direction: row !important;
+  font-family: sans-serif !important;
+  width: 1000px !important; 
+  background-color: azure !important;
+  box-shadow: 1px 2px 8px #1476ffee !important;
+
+}
+
+.appbartwo{
+
+  margin-top: 12px;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-content: center !important;
+  font-family: sans-serif !important;
+  width: 700px !important; 
+  background-color: azure !important;
+  box-shadow: 1px 2px 8px rgba(20, 118, 255, 0.935) !important;
+  
+
+}
+
+
+
+
+
+
+.addBtn{
+
+background-image: linear-gradient(to left, #fbc2eb 0%, #a6c1ee 100%);
+box-shadow: 1px 2px 8px #1476ffee !important;
+position: relative !important;
+top: 1% !important;
+
+
+
+
+}
+
+.comBtn{
+
+  border: none;
+  background-color: azure;
+  text-decoration: underline;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  text-transform: none;
+  font-weight: 500 !important;
+  font-size: 16px;
+
+}
+
+
+.load{
+
+width: 150px;
+}
+
+@keyframes load{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+
+.toolbar{
+
+margin: auto !important;
+color: black !important;
+}
+
+a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration:underline;
+  font-weight: 600;
+  color: black;
+  }
+  
+.commentary{
+  
+  color : black;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+font-size: 2px !important;
+
+}
+  
+  
+  .cardbox{
+
+  
+  background-color: aquamarine;
+  font-family: sans-serif;
+  text-align: center;
+  width: 600px;
+  margin: 20px 0;
+  box-shadow: 1px 2px 8px rgba(20, 118, 255, 0.935);
+  border-radius: 10px !important;
+  }
+
+  .commentcard{
+
+
+    text-align: center;
+    background-color: aquamarine;
+    width:600px;
+    margin: 20px 0;
+    box-shadow: 1px 2px 8px rgba(20, 118, 255, 0.935);
+    font-family: sans-serif;
+    word-wrap:break-word;
+    border-radius: 10px !important; 
+    
+  }
+
+.load2{
+
+  width: 400px;
+  margin-top: 150px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.commentdiv{
+
+font-weight: 400 !important;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+text-transform: capitalize!important;
+}
+
+.author{
+
+font-weight: bold !important;
+color: #799ddc !important;
+
+}
+
+.pointsanddate{
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+font-weight: 400!important;
+
+}
